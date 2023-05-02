@@ -1,4 +1,4 @@
-function scrollToSection() {
+function initScrollToSection() {
   const internalLinks = document.querySelectorAll(
     ".js-header-menu a[href^='#']"
   );
@@ -18,3 +18,4 @@ function scrollToSection() {
     });
   }
 }
+initScrollToSection();
