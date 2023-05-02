@@ -1,0 +1,110 @@
+.experiencia {
+  padding: 2.7rem 4.7rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+}
+.experiencia h2 {
+  text-transform: uppercase;
+  font-size: 7rem;
+  word-break: break-all;
+  max-width: 4ch;
+  color: #d8d8d8;
+}
+.experiencia-texto {
+  font-size: 1.4rem;
+  max-width: 40vw;
+  padding-bottom: 4rem;
+  color: #000;
+  line-height: 1.5;
+}
+.experiencia-texto strong {
+  color: #000;
+}
+.experiencia-profissional-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+}
+.experiencia-profissional {
+  background: rgb(235, 235, 235);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.experiencia-profissional span {
+  position: absolute;
+  top: 18px;
+  left: -90px;
+  width: 70px;
+  text-align: right;
+}
+.experiencia-profissional:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(rgb(190, 255, 190), rgb(0, 194, 0));
+  width: 5px;
+  height: 25px;
+  left: -5px;
+  top: 15px;
+}
+.experiencia-profissional ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: start;
+}
+.experiencia-profissional li {
+  background: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+@media (max-width: 1210px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    padding: 2.7rem 1rem;
+  }
+  .experiencia h2 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    word-break: initial;
+    max-width: initial;
+    color: #000;
+    text-align: center;
+  }
+  .experiencia-texto {
+    max-width: 100vw;
+  }
+  .experiencia-profissional span {
+    position: initial;
+    order: 1;
+    width: 120px;
+    text-align: left;
+  }
+  .experiencia-profissional span:before {
+    content: "Ano: ";
+  }
+}
+@media (max-width: 530px) {
+  .experiencia {
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  .experiencia h2 {
+    font-size: 2.34rem;
+  }
+  .experiencia-texto {
+    font-size: initial;
+    padding-bottom: 2rem;
+  }
+  .experiencia-profissional {
+    grid-template-columns: 1fr;
+  }
+  .experiencia-profissional p {
+    grid-row: 2;
+  }
+}
