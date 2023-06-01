@@ -1,2 +1,2 @@
-import initScrollToSection from "./modules/scroll-to-section.js";
-initScrollToSection();
+import initSmoothScroll from "./modules/smooth-scroll.js";
+initSmoothScroll();
