@@ -3,6 +3,7 @@ export default function initScrollToSection() {
   if (internalLinks.length) {
     internalLinks.forEach((menu) => {
       menu.addEventListener("click", (event) => {
+        event.preventDefault();
         const href = event.currentTarget.getAttribute("href");
         const section = document.querySelector(href);
         section.scrollIntoView({
