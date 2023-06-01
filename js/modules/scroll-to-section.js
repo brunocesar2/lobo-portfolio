@@ -1,17 +1,13 @@
-export default function initScrollToSection() {
-  const internalLinks = document.querySelectorAll("[data-header='menu'] a[href^='#']");
-  if (internalLinks.length) {
-  function scrollToSection(event) {
-    event.preventDefault()
-    const href = event.currentTarget.getAttribute("href")
-    const section = document.querySelector(href)
-    section.scrollIntoView ({
-      behavior: "smooth",
-      block: "start",
-    })
-  }
-    internalLinks.forEach((link) => {
-      link.addEventListener("click", scrollToSection)
-    })
+export default function initSmoothScroll() {
+  const links = document.querySelectorAll("[data-header='menu'] a");
+  if (links.length) {
+    links.forEach((link) => {
+      const href = link.getAttribute("href");
+      const section = document.querySelector(href);
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
   }
 }
