@@ -1,5 +1,5 @@
 export default function initSmoothScroll() {
-  const links = document.querySelectorAll("[data-header='menu'] a");
+  const links = document.querySelectorAll("[data-header='meu'] a");
   function smoothScroll(event) {
     event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
