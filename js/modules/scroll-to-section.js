@@ -10,7 +10,8 @@ export default function initScrollToSection() {
       block: "start",
     })
   }
-    internalLinks.forEach(link)
-    link.addEventListener("click", scrollToSection)
+    internalLinks.forEach((link) => {
+      link.addEventListener("click", scrollToSection)
+    })
   }
 }
