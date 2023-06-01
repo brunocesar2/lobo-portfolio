@@ -1,5 +1,5 @@
 export default function initScrollToSection() {
-  const internalLinks = document.querySelectorAll("[data-header='menu'] a");
+  const internalLinks = document.querySelectorAll("[data-header='menu'] a[href^=#]");
   if (internalLinks.length) {
   function scrollToSection(event) {
     event.preventDefault()
