@@ -12,8 +12,5 @@ export default function initScrollToSection() {
   }
     internalLinks.forEach(link)
     link.addEventListener("click", scrollToSection)
-        });
-      });
-    });
   }
 }
