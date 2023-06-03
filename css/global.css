@@ -1,8 +1,7 @@
 body {
-  font-family: "Rubik", sans-serif;
   margin: 0px;
-  color: #111111;
-  background: #fff;
+  font-family: "Rubik", sans-serif;
+  color: #111;
 }
 h1,
 h2,
@@ -11,6 +10,7 @@ h4,
 ul,
 p,
 blockquote,
+dl,
 dd {
   margin: 0px;
 }
@@ -24,8 +24,8 @@ a {
 }
 img {
   max-width: 100%;
-  display: block;
   height: auto;
+  display: block;
 }
 img[src$=".jpg"] {
   border-radius: 4px;
