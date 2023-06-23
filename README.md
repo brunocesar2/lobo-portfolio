@@ -1,5 +1,4 @@
 # Lobo Portfolio 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/brunocesar2/lobo-portfolio/blob/main/LICENSE)
 
 # Sobre o projeto
 
