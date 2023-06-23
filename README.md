@@ -10,12 +10,12 @@ Lobo Portfolio é um projeto criado no curso de HTML/CSS da Origamid.
 O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid Layout e Media Queries adquiridos durante o curso. 
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/c703d450-63d7-44c6-9654-161fcf48139c" width="270px">
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/80a4fffa-86e6-45c5-b935-bb3fe589016d" width="270px">
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/1be7af17-ee41-4434-8f6e-139156c26722" width="800px">
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/2b7fdc72-d5e2-4768-a5ff-3732ed14a3e5" width="800px">
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
