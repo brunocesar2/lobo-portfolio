@@ -17,62 +17,16 @@ O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid 
 <img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/1be7af17-ee41-4434-8f6e-139156c26722" width="800px">
 <img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/2b7fdc72-d5e2-4768-a5ff-3732ed14a3e5" width="800px">
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
+- HTML / CSS / JS
+  
+## Implantação
+- Vercel
 
 # Autor
 
-Wellington Mazoni de Andrade
+Bruno César Tenório de Lima
 
-https://www.linkedin.com/in/wmazoni
-
+https://www.linkedin.com/in/brunocesar2
