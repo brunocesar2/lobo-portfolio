@@ -16,7 +16,7 @@ O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid 
 <img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/1be7af17-ee41-4434-8f6e-139156c26722" width="800px">
 <img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/2b7fdc72-d5e2-4768-a5ff-3732ed14a3e5" width="800px">
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 ## Front end
 - HTML / CSS / JS
@@ -24,7 +24,7 @@ O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid 
 ## Implantação
 - Vercel
 
-# Autor
+## Autor
 
 Bruno César Tenório de Lima
 
