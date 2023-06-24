@@ -1,6 +1,6 @@
 # Lobo Portfolio 
 
-# Sobre o projeto
+## Sobre o projeto
 
 https://lobo-portfolio.brunocesar.vercel.app
 
