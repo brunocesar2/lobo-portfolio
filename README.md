@@ -1,14 +1,17 @@
-# Lobo Portfolio 
+# Lobo Portfolio
 
 ## Sobre o projeto
 
 Projeto criado no curso de HTML/CSS da Origamid.
 
-O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid Layout e Media Queries adquiridos durante o curso. 
+O projeto consiste em um portfólio fictício para aplicar os conceitos de Grid Layout e Media Queries adquiridos durante o curso.
+
 ## Layout mobile
-<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/4a72210c-3d5d-4f1b-ade4-6dc4c7412231" width="270px">
-<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/2598eb87-7c0b-4539-b560-2528f968ab39" width="270px">
+
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/e44af927-0e23-4792-8c5c-be16795e906d" width="270px">
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/3539009b-3cf4-45f0-a406-5b48b2c6d8b4" width="270px">
 
 ## Layout web
-<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/1be7af17-ee41-4434-8f6e-139156c26722" width="800px">
-<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/2b7fdc72-d5e2-4768-a5ff-3732ed14a3e5" width="800px">
+
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/38731f71-3b70-4516-b9c6-213cf4ec38e4" width="800px">
+<img src="https://github.com/brunocesar2/lobo-portfolio/assets/111947999/5b7d9008-8abd-4d97-ae45-b3f510be0b3d" width="800px">
