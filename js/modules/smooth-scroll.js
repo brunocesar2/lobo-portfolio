@@ -2,7 +2,9 @@ export default function initSmoothScroll() {
   const internalLinks = document.querySelectorAll("[data-smooth-scroll] a");
   if (internalLinks.length) {
     internalLinks.forEach((links) => {
-      links.addEventListener("click", activeSmoothScroll);
+      ["touchstart", "click"].forEach((userEvent) => {
+        links.addEventListener(userEvent, activeSmoothScroll);
+      });
     });
     function activeSmoothScroll(event) {
       event.preventDefault();
