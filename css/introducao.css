@@ -1,4 +1,5 @@
 .introducao {
+  grid-column: 2;
   padding: 2.70rem 4.70rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -12,26 +13,8 @@
 .introducao p {
   font-size: 1.4rem;
 }
-@media (max-width: 1210px) {
+@media (max-width: 1400px) {
   .introducao {
-    grid-template-columns: 1fr;
-    padding: 2.7rem 1rem;
-    justify-items: center;
-    text-align: center;
-  }
-  .introducao img {
-    max-width: 50vw;
-  }
-}
-@media (max-width: 530px) {
-  .introducao {
-    padding: 2rem 1rem;
-    gap: 2rem;
-  }
-  .introducao h1 {
-    font-size: 2.34rem;
-  }
-  .introducao p {
-    font-size: initial;
+    grid-column: 1/-1;
   }
 }

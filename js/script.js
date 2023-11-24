@@ -1,5 +1,4 @@
-export default function initSmoothScroll() {
-  const internalLinks = document.querySelectorAll("[data-smooth-scroll] a");
+const internalLinks = document.querySelectorAll("[data-smooth-scroll] a");
   if (internalLinks.length) {
     internalLinks.forEach((links) => {
       ["touchstart", "click"].forEach((userEvent) => {
@@ -16,4 +15,3 @@ export default function initSmoothScroll() {
       });
     }
   }
-}
