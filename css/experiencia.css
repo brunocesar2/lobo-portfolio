@@ -79,4 +79,18 @@
   .experiencia-texto {
     max-width: 100vw;
   }
+  .experiencia span {
+    position: initial;
+    order: 1;
+    text-align: left;
+    width: 125px;
+  }
+  .experiencia span::before {
+    content: "Ano: "
+  }
+}
+@media (max-width: 800px) {
+  .experiencia {
+  padding: 2rem .75rem;
+  }
 }

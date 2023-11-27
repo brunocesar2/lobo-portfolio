@@ -1,6 +1,6 @@
 .introducao {
   grid-column: 2;
-  padding: 2.70rem 4.70rem;
+  padding: 2.7rem 4.7rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6rem;
@@ -29,6 +29,11 @@
 }
 @media (max-width: 800px) {
   .introducao {
-    padding: 2rem .75rem;
+    padding: 2rem 0.75rem;
+  }
+}
+@media (max-width: 600px) {
+  .introducao h1 {
+    font-size: 2rem;
   }
 }

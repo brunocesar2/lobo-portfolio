@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2.7rem 4.7rem;
+  gap: 2rem;
 }
 .header-menu {
   display: flex;
@@ -24,5 +25,10 @@
   .header-menu a {
     background: #eee;
     border-radius: 4px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
   }
 }
