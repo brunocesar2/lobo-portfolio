@@ -38,4 +38,5 @@ dd {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1400px) 1fr;
+
 }
