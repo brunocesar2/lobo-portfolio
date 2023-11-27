@@ -13,8 +13,3 @@
 .introducao p {
   font-size: 1.4rem;
 }
-@media (max-width: 1400px) {
-  .introducao {
-    grid-column: 1/-1;
-  }
-}

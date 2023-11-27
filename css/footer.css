@@ -27,8 +27,3 @@
   text-decoration: underline;
   color: #fff;
 }
-@media (max-width: 1400px) {
-  .footer {
-    grid-column: 1/-1;
-  }
-}

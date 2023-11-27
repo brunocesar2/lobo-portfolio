@@ -7,6 +7,7 @@
 }
 .experiencia h2 {
   text-transform: uppercase;
+  word-break: break-all;
   font-size: 7rem;
   max-width: 4ch;
   color: #d8d8d8;
@@ -62,9 +63,4 @@
   background: #fff;
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-}
-@media (max-width: 1400px) {
-  .experiencia {
-    grid-column: 1/-1;
-  }
 }
