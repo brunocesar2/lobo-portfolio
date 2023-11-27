@@ -64,3 +64,18 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
 }
+@media (max-width: 1200px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .experiencia h2 {
+    word-break: initial;
+    color: #333;
+    text-transform: initial;
+    font-size: 3rem;
+  }
+  .experiencia-texto {
+    max-width: 100vw;
+  }
+}

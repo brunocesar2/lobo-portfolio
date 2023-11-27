@@ -27,3 +27,8 @@
   text-decoration: underline;
   color: #fff;
 }
+@media (max-width: 800px) {
+  .footer {
+    padding: 5rem .75rem 0 .75rem;
+  }
+}

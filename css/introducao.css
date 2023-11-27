@@ -13,3 +13,22 @@
 .introducao p {
   font-size: 1.4rem;
 }
+@media (max-width: 1000px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    margin: 0 auto;
+  }
+  .introducao h1 {
+    text-align: center;
+  }
+  .introducao p {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .introducao {
+    padding: 2rem .75rem;
+  }
+}
