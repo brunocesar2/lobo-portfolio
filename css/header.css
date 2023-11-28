@@ -11,16 +11,18 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 .header-menu a {
   color: #000;
   text-decoration: none;
   padding: 0.5rem 1rem;
   font-size: 18px;
+  display: block;
 }
 @media (max-width: 800px) {
   .header {
-    padding: 2rem .75rem;
+    padding: 2rem .75rem .5rem .75rem;
   }
   .header-menu a {
     background: #eee;
@@ -30,5 +32,8 @@
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
+  }
+  .header-menu a {
+    font-size: 1rem;
   }
 }

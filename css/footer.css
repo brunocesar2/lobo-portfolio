@@ -31,9 +31,27 @@
   .footer {
     display: block;
   }
+  .footer li {
+    font-size: 1.75rem;
+  }
+  .footer-texto {
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 800px) {
   .footer {
-    padding: 5rem .75rem 0 .75rem;
+    padding: 2rem .75rem 0 .75rem;
+  }
+  .footer-copy {
+    padding: 2rem 0;
+  }
+  
+  .footer li {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 600px) {
+  .footer-texto {
+    font-size: 1rem;
   }
 }
