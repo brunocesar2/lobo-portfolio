@@ -45,13 +45,12 @@
   .footer-copy {
     padding: 2rem 0;
   }
-  
-  .footer li {
-    font-size: 1rem;
-  }
 }
 @media (max-width: 600px) {
   .footer-texto {
+    font-size: 1rem;
+  }
+  .footer li {
     font-size: 1rem;
   }
 }
