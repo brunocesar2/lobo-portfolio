@@ -23,7 +23,8 @@
             </svg>
 
             <nav>
-                <ul class="header-menu" data-smooth-scroll>
+                <button data-menu-mobile-button aria-controls="menu-mobile" aria-expanded="false">MENU</button>
+                <ul class="header-menu" data-smooth-scroll data-menu-mobile-list id="menu-mobile">
                     <li><a href="#experiencia">Experiência</a></li>
                     <li><a href="#formacao">Formação</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -131,7 +132,7 @@
         </footer>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>
